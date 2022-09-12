@@ -124,17 +124,49 @@ h2{
     margin-bottom: 75px;
     line-height: 1.3;
 }
+/* section2 */
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+#find-a-partner img{
+    width: 60%;
+}
+
+.txt{
+    padding-left: 50px;
+    padding-top: 60px;
+}
+#find-a-partner h3{
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+#find-a-partner p{
+    font-size: 16px;
+    padding-bottom: 30px;
+    line-height: 1.3;
+}
+
+#find-a-partner button{
+    width: 155px;
+    height: 45px;
+    background-color: var(--white);
+    border: 1px solid var(--black);
+    font-size: 16px;
+}
+
 /* section6 */
 #try-fot-free{
-    background-color: var(--light-cyan-blue);
-    height: 360px;
-}
-.btn-white-big{
-    width: 295px;
+    background-c width: 295px;
     height: 45px;
     background-color: var(--white);
     border: none;
-    font-size: 16px;
+    font-size: 16px;olor: var(--light-cyan-blue);
+    height: 360px;
+}
+.btn-white-big{
+   
 }
 
 .flex{
