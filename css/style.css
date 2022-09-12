@@ -58,7 +58,7 @@ header nav{
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1000px;
+    z-index: 1000;
     background-color: var(--white)
 }
 header nav li{
