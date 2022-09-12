@@ -21,7 +21,7 @@
 }
 body{
     background-color: var(--white);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif;
 }
 .container{
     max-width: 1200px;
@@ -120,7 +120,7 @@ h1{
 }
 /* MAIN  */
 h2{
-    font-size: 43px;
+    font-size: 42px;
     margin-bottom: 75px;
     line-height: 1.3;
 }
@@ -135,7 +135,7 @@ h2{
 }
 
 .txt{
-    padding-left: 50px;
+    padding: 0 50px;
     padding-top: 60px;
 }
 #find-a-partner h3{
@@ -158,15 +158,16 @@ h2{
 
 /* section6 */
 #try-fot-free{
-    background-c width: 295px;
+    background-color: var( --light-cyan-blue);
+    height: 360px;
+}
+
+.btn-white-big{
+    width: 295px;
     height: 45px;
     background-color: var(--white);
     border: none;
-    font-size: 16px;olor: var(--light-cyan-blue);
-    height: 360px;
-}
-.btn-white-big{
-   
+    font-size: 16px;
 }
 
 .flex{
@@ -175,6 +176,60 @@ h2{
     justify-content: space-between;
     align-items: flex-start;
 }
+
+/* section7 */
+#faq li{
+    list-style: none;
+    padding: 30px;
+    border-top: 1px solid var(--black);
+}
+
+#faq .last-li{
+    border-bottom: 1px solid var(--black);
+
+}
+
+#faq li label{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#faq li p{
+    max-width: 800px;
+    text-align: justify;
+}
+
+#faq li label i{
+    font-size: 14px;
+}
+
+#faq label + input[type="radio"]{
+    display: none;
+}
+
+#faq .content{
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+#faq label + input[type="radio"]:checked + .content{
+    max-height: 400px;
+}
+
+
+
+
+
+
+
 
 
 
