@@ -45,6 +45,12 @@ body{
 }
 
 /* HEADER  */
+.flexbox{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
 
 header nav{
     width: 100%;
@@ -54,6 +60,24 @@ header nav{
     left: 0;
     z-index: 1000px;
     background-color: var(--white)
+}
+header nav li{
+    list-style: none;
+    padding: 0 20px;
+}
+header nav li a{
+    text-decoration: none;
+    color: var(--black);
+    font-size: 16px;
+}
+
+.btn-nav{
+    width: 70px;
+    height: 35px;
+    background-color: var(--azure);
+    color: var(--white);
+    border: none;
+    font-size: 16px;
 }
 
 #hero{
