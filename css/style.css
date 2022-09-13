@@ -356,50 +356,17 @@ h2{
 }
 
 /* section7 */
-#faq li{
-    list-style: none;
-    padding: 30px;
-    border-top: 1px solid var(--black);
-}
 
-#faq .last-li{
-    border-bottom: 1px solid var(--black);
+details {
+    display: block;
+  }
 
-}
-
-#faq li label{
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 18px;
+details > summary{
+    padding: 40px;
+    border-top: 1px solid black;
     font-weight: bold;
+    font-size: 18px;
     cursor: pointer;
-}
-
-#faq li p{
-    max-width: 800px;
-    text-align: justify;
-}
-
-#faq li label i{
-    font-size: 14px;
-}
-
-#faq label + input[type="radio"]{
-    display: none;
-}
-
-#faq .content{
-    padding: 0 10px;
-    line-height: 26px;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.5s;
-}
-
-#faq label + input[type="radio"]:checked + .content{
-    max-height: 400px;
 }
 
 
