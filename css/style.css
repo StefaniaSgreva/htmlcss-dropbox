@@ -302,25 +302,33 @@ h2{
 #designit{
     background-color: var(--lighter-gray);
 }
-
+.f-box{
+    display: flex;
+    /* flex-flow: row nowrap; */
+    /* width: calc(100% / 3); */
+}
 .left{
-    width: 640px;
     display: flex;
     flex-flow: row wrap;
-}
-.center{
-    width: 640px;
-   
+    min-width: 640px;
+
 }
 .right{
-    width: 640px;
     display: flex;
-    flex-flow: row wrap; 
+    flex-flow: row wrap;
+    min-width: 640px;
+    
+}
+.center{
+    display: flex;
+    flex-flow: column nowrap;
+}
+.center img{
+    width: 40%;
 }
 .square{
     width: 320px;
     height: 320px;
-    /* border: 1px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
