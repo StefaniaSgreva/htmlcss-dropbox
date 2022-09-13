@@ -176,6 +176,38 @@ h2{
     border-radius: 50%;
     background: var(--white);
 }
+
+.row{
+    display: flex;
+    /* flex-direction: row wrap; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.card{
+    flex: 1 1 21rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-right: 20px;
+    background-color: var(--white);
+    border: 1px solid var(--light-gray);
+    padding: 10px 20px;
+    align-self: normal;
+}
+
+#business-plan li{
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+.buy-now{
+    padding-bottom: 40px;
+}
+
 /* section2 */
 .flex-container{
     display: flex;
@@ -207,6 +239,63 @@ h2{
     border: 1px solid var(--black);
     font-size: 16px;
 }
+/* section3 */
+.box{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.option{
+    width: calc(100% / 3);
+    padding-right: 40px;
+    margin-top: 50px;
+}
+.card-img img{
+    width: 100%;
+}
+#operations h3{
+    font-size: 24px;
+    padding-bottom: 30px;
+}
+
+
+/* section5 */
+#designit{
+    background-color: var(--light-gray);
+    display: flex;
+}
+.left{
+    width: 20vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.center{
+    width: calc(100% - 40vw);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    padding: 50px 50px;
+}
+.center img{
+    width: 25%;
+}
+.right{
+    width: 20vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.square{
+    width: 10vw;
+    height: 10vw;
+    background-color: #a2d39b;
+    border: 1px solid black;
+}
+
 
 /* section6 */
 #try-fot-free{
