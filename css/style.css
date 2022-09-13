@@ -29,7 +29,7 @@ body{
 }
 .container-small{
     max-width: 1000px;
-    margin: 150px auto;
+    margin: 150px auto; /*togliere 150 a tutti*/
 }
 .d-flex{
     display: flex;
@@ -177,28 +177,66 @@ h2{
     background: var(--white);
 }
 
-.row{
+.plan-card-container{
     display: flex;
-    /* flex-direction: row wrap; */
+    flex-flow: row wrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: stretch;
+    margin: 50px 50px;
+    /* background-color: #a2d39b; */
+}
+.plan-card{
+    width: calc((100% - 100px)/ 3);
+    padding: 20px;
+    border: 1px solid var(--light-gray);
 }
 
-
-.card{
-    flex: 1 1 21rem;
+.enterprise{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
-    margin-right: 20px;
-    background-color: var(--white);
+    justify-content: center;
+    margin: 50px 0;
+    padding: 10px 0;
     border: 1px solid var(--light-gray);
-    padding: 10px 20px;
-    align-self: normal;
+}
+.inner-card{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    /* background-color: #b4d0e7; */
 }
 
+.w-65{
+    width: 65%;
+    /* background-color: #d5001f; */
+}
+.w-35{
+    display: flex;
+    justify-content: right;
+    align-items: flex-start;
+    width: 35%;
+    /* background-color: aqua; */
+}
+.w-65 span{
+    font-weight: bold;
+    font-size: 14px;
+}
+.w-65 p{
+    padding-top: 50px;
+    font-size: 14px;
+}
+.call{
+    background-color: var(--azure);
+    color: var(--white);
+    border: none;
+    font-size: 16px;
+    width: 240px;
+    height: 45px;
+}
+#business-plan h3{
+    font-size: 24px;
+    padding-bottom: 20px;
+}
 #business-plan li{
     list-style: none;
     padding-bottom: 20px;
@@ -258,7 +296,6 @@ h2{
     font-size: 24px;
     padding-bottom: 30px;
 }
-
 
 /* section5 */
 #designit{
