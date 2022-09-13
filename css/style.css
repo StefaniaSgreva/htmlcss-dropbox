@@ -13,6 +13,7 @@
     --navy: #0d2481;
     --sprint-yellow: #ffd830;
     --light-gray: #999999;
+    --lighter-gray: #f5f5f5;
 }
 *{
     margin: 0;
@@ -299,45 +300,39 @@ h2{
 
 /* section5 */
 #designit{
-    background-color: var(--light-gray);
-    display: flex;
-}
-.left{
-    width: 20vw;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-}
-.center{
-    width: calc(100% - 40vw);
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: flex-start;
-    padding: 50px 50px;
-}
-.center img{
-    width: 25%;
-}
-.right{
-    width: 20vw;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-}
-.square{
-    width: 10vw;
-    height: 10vw;
-    background-color: #a2d39b;
-    border: 1px solid black;
+    background-color: var(--lighter-gray);
 }
 
+.left{
+    width: 640px;
+    display: flex;
+    flex-flow: row wrap;
+}
+.center{
+    width: 640px;
+   
+}
+.right{
+    width: 640px;
+    display: flex;
+    flex-flow: row wrap; 
+}
+.square{
+    width: 320px;
+    height: 320px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.square img{
+    width: 60%;
+}
 
 /* section6 */
 #try-fot-free{
     background-color: var( --light-cyan-blue);
-    height: 360px;
+
 }
 
 .btn-white-big{
