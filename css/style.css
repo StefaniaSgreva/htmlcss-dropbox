@@ -452,6 +452,7 @@ footer i{
     border: none;
     font-size: 16px;
     margin-top: 50px;
+    cursor: pointer;
 }
 .social-links i{
     padding-right: 20px;
