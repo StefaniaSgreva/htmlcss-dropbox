@@ -268,8 +268,62 @@ h1{
     padding-top: 50px;
     font-size: 14px;
 }
+/* section2 */
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+#find-a-partner img{
+    width: 60%;
+}
+.txt{
+    padding: 0 50px;
+    padding-top: 60px;
+}
+#find-a-partner h3{
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+#find-a-partner p{
+    font-size: 16px;
+    padding-bottom: 30px;
+    line-height: 1.3;
+}
 
-
+#find-a-partner button{
+    width: 155px;
+    height: 45px;
+    background-color: var(--white);
+    border: 1px solid var(--black);
+    font-size: 16px;
+}
+/* section3 */
+#operations h3{
+    font-size: 24px;
+    padding-bottom: 30px;
+}
+#find-a-partner{
+    margin-bottom: 150px;
+}
+.box{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.option{
+    width: calc(100% / 3);
+    padding-right: 40px;
+    margin-top: 50px;
+}
+.card-img img{
+    width: 100%;
+}
+/* section 4  */
+#clients{
+    margin: 150px auto;
+}
 
 
 /* FOOTER  */
