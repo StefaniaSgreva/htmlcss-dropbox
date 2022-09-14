@@ -30,7 +30,7 @@ body{
 }
 .container-small{
     max-width: 1000px;
-    margin: 150px auto; /*togliere 150 a tutti*/
+    margin: 0 auto; 
 }
 .d-flex{
     display: flex;
@@ -43,12 +43,14 @@ body{
     width: 70%;
     padding-top: 60px;
 }
-nav li{
-    list-style: none;
-    padding: 0 20px;
+
+h2{
+    font-size: 42px;
+    margin-bottom: 75px;
+    line-height: 1.4;
 }
 
-/* HEADER  */
+/* HEADER - NAV  */
 .flexbox{
     display: flex;
     flex-flow: row wrap;
@@ -66,6 +68,11 @@ header nav{
     background-color: var(--white)
 }
 
+nav li{
+    list-style: none;
+    padding: 0 20px;
+}
+
 header nav li a{
     text-decoration: none;
     color: var(--black);
@@ -80,6 +87,8 @@ header nav li a{
     border: none;
     font-size: 16px;
 }
+
+/* HEERO */
 
 #hero{
     background-color: var(--light-cyan-blue);
@@ -120,13 +129,12 @@ h1{
     padding-top: 75px;
     color: var(--black);
 }
-/* MAIN  */
-h2{
-    font-size: 42px;
-    margin-bottom: 75px;
-    line-height: 1.3;
+/* MAIN: 7 SECTIONS */
+/* section 1  */
+#business-plan{
+    margin: 150px auto;
 }
-/* section1 */
+/* radio button  */
 .container-radio-btn {
     display: inline-block;
     position: relative;
@@ -178,45 +186,79 @@ h2{
     background: var(--white);
 }
 
+/* card  */
+#business-plan h3{
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+#business-plan li{
+    list-style: none;
+    padding-bottom: 20px;
+}
+#business-plan button{
+    width: 240px;
+    height: 40px;
+    border: none;
+    background-color: var(--azure);
+    color: var(--white);
+    font-size: 16px;
+    margin: 30px auto;
+}
 .plan-card-container{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: stretch;
-    margin: 50px 50px;
-    /* background-color: #a2d39b; */
+    margin: 50px 0;
 }
 .plan-card{
     width: calc((100% - 100px)/ 3);
-    padding: 20px;
     border: 1px solid var(--light-gray);
 }
-
-.enterprise{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 50px 0;
+.card-top{
+    border-bottom: 1px solid var(--light-gray);
+    text-align: center;
     padding: 10px 0;
+}
+.planes{
+    padding: 30px;
+}
+.prices{
+    margin-bottom: 40px;
+}
+.align-icon{
+    display: flex;
+}
+.sideByside{
+    padding-right: 10px;
+}
+.short-line{
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--light-gray);
+}
+.buy-now{
+    margin-bottom: 80px;
+}
+/* card full width  */
+.enterprise{
+    margin: 50px 0;
     border: 1px solid var(--light-gray);
 }
 .inner-card{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 20px 30px;
-    /* background-color: #b4d0e7; */
+    margin-top: 20px;
 }
 
 .w-65{
     width: 65%;
-    /* background-color: #d5001f; */
 }
 .w-35{
     display: flex;
     justify-content: right;
     align-items: flex-start;
     width: 35%;
-    /* background-color: aqua; */
 }
 .w-65 span{
     font-weight: bold;
@@ -226,157 +268,6 @@ h2{
     padding-top: 50px;
     font-size: 14px;
 }
-.call{
-    background-color: var(--azure);
-    color: var(--white);
-    border: none;
-    font-size: 16px;
-    width: 240px;
-    height: 45px;
-}
-#business-plan h3{
-    font-size: 24px;
-    padding-bottom: 20px;
-}
-#business-plan li{
-    list-style: none;
-    padding-bottom: 20px;
-}
-
-.buy-now{
-    padding-bottom: 40px;
-}
-
-/* section2 */
-.flex-container{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-}
-#find-a-partner img{
-    width: 60%;
-}
-
-.txt{
-    padding: 0 50px;
-    padding-top: 60px;
-}
-#find-a-partner h3{
-    font-size: 24px;
-    padding-bottom: 20px;
-}
-#find-a-partner p{
-    font-size: 16px;
-    padding-bottom: 30px;
-    line-height: 1.3;
-}
-
-#find-a-partner button{
-    width: 155px;
-    height: 45px;
-    background-color: var(--white);
-    border: 1px solid var(--black);
-    font-size: 16px;
-}
-/* section3 */
-.box{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
-}
-.option{
-    width: calc(100% / 3);
-    padding-right: 40px;
-    margin-top: 50px;
-}
-.card-img img{
-    width: 100%;
-}
-#operations h3{
-    font-size: 24px;
-    padding-bottom: 30px;
-}
-
-/* section5 */
-#designit{
-    background-color: var(--lighter-gray);
-}
-.f-box{
-    display: flex;
-    /* flex-flow: row nowrap; */
-    /* width: calc(100% / 3); */
-}
-.left{
-    display: flex;
-    flex-flow: row wrap;
-    min-width: 640px;
-
-}
-.right{
-    display: flex;
-    flex-flow: row wrap;
-    min-width: 640px;
-    
-}
-.center{
-    display: flex;
-    flex-flow: column nowrap;
-}
-.center img{
-    width: 40%;
-}
-.square{
-    width: 320px;
-    height: 320px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.square img{
-    width: 60%;
-}
-
-/* section6 */
-#try-fot-free{
-    background-color: var( --light-cyan-blue);
-
-}
-
-.btn-white-big{
-    width: 295px;
-    height: 45px;
-    background-color: var(--white);
-    border: none;
-    font-size: 16px;
-}
-
-.flex{
-    padding-top: 130px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
-/* section7 */
-
-details {
-    display: block;
-  }
-
-details > summary{
-    padding: 40px;
-    border-top: 1px solid black;
-    font-weight: bold;
-    font-size: 18px;
-    cursor: pointer;
-}
-
-
-
-
-
-
 
 
 
@@ -387,20 +278,6 @@ footer{
     height: 570px;
     background-color: var(--black);
     color: var(--white);
-}
-
-
-footer nav li a{
-    text-decoration: none;
-    color: var(--white);
-    font-size: 16px;
-    line-height: 2;
-}
-
-.list-title{
-    font-size: 24px;
-    font-weight: 800;
-    padding-bottom: 20px;
 }
 
 .footer-container{
@@ -418,7 +295,24 @@ footer nav li a{
     border-top: 2px solid var(--light-gray);
 }
 
-.lang{
+footer nav li a{
+    text-decoration: none;
+    color: var(--white);
+    font-size: 16px;
+    line-height: 2;
+}
+
+footer i{
+    color: var(--light-gray);
+}
+
+.list-title{
+    font-size: 24px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+.languages{
     background: var(--black); 
     color: var(--light-gray);
     border: none;
@@ -426,6 +320,7 @@ footer nav li a{
     margin-top: 50px;
 }
 
-footer i{
-    color: var(--light-gray);
-}
+
+
+
+
