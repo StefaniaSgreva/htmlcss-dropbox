@@ -378,16 +378,20 @@ h1{
     background-color: var( --light-cyan-blue);
 }
 
+#try-fot-free h2{
+    margin: 0;
+}
 .btn-white-big{
     width: 295px;
     height: 45px;
     background-color: var(--white);
     border: none;
     font-size: 16px;
+    margin-top: 20px;
 }
 
 .flex{
-    padding-top: 130px;
+    padding: 135px 0;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
