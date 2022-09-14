@@ -324,6 +324,53 @@ h1{
 #clients{
     margin: 150px auto;
 }
+/* section 5  */
+#ldesignit{
+    margin-top: 150px;
+    width: 100%;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.big-square{
+    width: calc(100% / 3);
+}
+
+.middle{
+    background-color: var(--lighter-gray);
+    width: calc(100% - 60vw);
+    height: 32vw;
+    padding: 10px;
+    overflow-y: auto;
+    padding: 50px;
+}
+.middle img{
+    width: 45%;  
+}
+
+.small-square{
+    width: 50%; 
+    height: 16vw; 
+    text-align: center;
+    line-height: 16vw;  
+}
+
+.small-square img{
+    width: 50%;
+    vertical-align: middle;
+    filter: invert(1);  
+}
+.border{
+    border: 15px solid var(--butter-lattuce);
+}
+.line{
+    color: var(--light-gray);
+    opacity: 50%;
+    padding: 40px 0;
+}
+.author{
+    padding: 60px 0;
+}
 
 
 /* FOOTER  */
