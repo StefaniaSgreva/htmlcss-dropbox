@@ -4,6 +4,7 @@
     --black: #000000;
     --light-cyan-blue: #b4d0e7;
     --azure: #0061ff;
+    --azure-hover: #3984ff;
     --butter-lattuce: #d1e9cd;
     --pistachio-green: #a2d39b;
     --burgundy: #61082b;
@@ -49,7 +50,10 @@ h2{
     margin-bottom: 75px;
     line-height: 1.4;
 }
-
+.azure:hover{
+    cursor: pointer;
+    background-color: var(--azure-hover);
+}
 /* HEADER - NAV  */
 .flexbox{
     display: flex;
@@ -200,6 +204,10 @@ h1{
     font-size: 16px;
     margin: 30px auto;
 }
+#business-plan button:hover{
+    cursor: pointer;
+    background-color: var(--azure-hover);
+}
 .plan-card-container{
     display: flex;
     flex-flow: row wrap;
@@ -293,6 +301,12 @@ h1{
     border: 1px solid var(--black);
     font-size: 16px;
 }
+#find-a-partner button:hover{
+    cursor: pointer;
+    background-color: var(--lighter-gray);
+    border: 2px solid var(--light-gray);
+}
+
 /* section3 */
 #operations h3{
     font-size: 24px;
@@ -383,7 +397,11 @@ h1{
     font-size: 16px;
     margin-top: 20px;
 }
-
+.btn-white-big:hover{
+    cursor: pointer;
+    background-color: var(--lighter-gray);
+    border: 2px solid var(--light-gray);
+}
 .flex{
     padding: 135px 0;
     display: flex;
