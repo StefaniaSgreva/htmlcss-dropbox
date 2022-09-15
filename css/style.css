@@ -430,7 +430,8 @@ footer{
 
 .footer-bottom-container{
     width: 120px;
-    border-top: 2px solid rgba(128, 128, 128, 0.518) ;
+    border-top: 2px solid rgba(128, 128, 128, 0.518);
+    margin-left: 15px;
 }
 
 footer nav li a{
